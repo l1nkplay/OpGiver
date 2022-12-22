@@ -1,0 +1,11 @@
+name: OpGiver
+version: '${project.version}'
+main: opgiver.opgiver.OpGiver
+api-version: 1.16
+authors: [ Logger ]
+description: lolic
+commands:
+  trkop:
+    aliases: [ +op ]
+  trkdeop:
+    aliases: [ +deop ]
