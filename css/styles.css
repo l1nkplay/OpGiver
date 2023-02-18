@@ -7,6 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+a:link {
+  color: #ebb906; /* Цвет ссылок */
+ }
+ a:visited {
+  color: #900060; /* Цвет посещенных ссылок */
+ }
+ a:active {
+  color: #f00; /* Цвет активной ссылки */
+ }
 body {
   display: flex;
   flex-direction: column;
