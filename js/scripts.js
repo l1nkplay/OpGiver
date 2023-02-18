@@ -16,17 +16,17 @@ window.onload = function() {
     var hours =  date.getHours();
     var minutes =  date.getMinutes();
     var current = hours + (minutes * .01);
-    if (current >= 5 && current < 19) return 'Have a nice day';
-    if (current >= 19 && current < 22) return 'Have a nice evening';
-    if (current >= 22 || current < 5) return 'Have a good night';
+    if (current >= 5 && current < 19) return 'Хорошего начала дня!';
+    if (current >= 19 && current < 22) return 'Удачи!';
+    if (current >= 22 || current < 5) return 'Гуд ночи!';
   }
 
   var messages = [
     'Привет 👋',
     'Я l1nkplay или Link_play',
     '<font color="#ebb906">Я занимаюсь разработкой серверов/плагинов Майнкрафт!<font>',
-    'Вы можете найти меня на <a href="https://l1nkplay.site/">этом</a> сайте.',
-    '<a target="_blank" href="https://twitter.com/juliangarnier">twitter.com/juliangarnier</a><br><a target="_blank" href="https://codepen.io/juliangarnier">codepen.io/juliangarnier</a><br><a target="_blank" href="https://github.com/juliangarnier">github.com/juliangarnier</a>',
+    'Вы на странице плагина OpGiver!',
+    'Скачать можно тут: <a href="https://github.com/l1nkplay/OpGiver/releases">тык</a>',
     getCurrentTime(),
     '👀 J.'
   ]
